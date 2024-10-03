@@ -135,7 +135,7 @@ public class Main {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Input tidak valid. Masukkan angka.");
-                scanner.nextLine();
+                scanner.nextLine(); // bisa langsung di kasih \n pada baris atasnya. -> kiss
             }
         }
         return index;
